@@ -1,0 +1,20 @@
+{
+  "name": "sales-sheet-builder",
+  "description": "Build compressed, differentiated, source-backed B2B sales sheets with separate internal research workbooks.",
+  "version": "0.1.0",
+  "author": {
+    "name": "William Flanagan",
+    "email": "wflanagan@audienti.com"
+  },
+  "homepage": "https://github.com/audienti/sales-sheet-builder",
+  "repository": "https://github.com/audienti/sales-sheet-builder",
+  "keywords": [
+    "sales-sheet",
+    "sell-sheet",
+    "positioning",
+    "jtbd",
+    "sales",
+    "product-marketing",
+    "go-to-market"
+  ]
+}
