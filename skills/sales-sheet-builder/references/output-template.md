@@ -60,6 +60,8 @@ When research, diagnosis, testing, tuning, or a durable evidence base is useful,
 
 The workbook is for the operator, not the buyer. It can be dense. It should preserve the useful data, alternatives, sources, and reasoning that made the sales sheet sharper.
 
+When tuning from pasted feedback or a prior output, preserve the feedback trail in the workbook. Do not force it into the buyer-facing sheet.
+
 ## A. Sales Sheet Research Brief
 
 Include:
@@ -88,7 +90,40 @@ Include:
 - Proof status
 - Missing assets
 
-## B. JTBD Map
+## B. Input And Feedback Notes
+
+Use this section when the user provides pasted text, a prior draft, critique, or revision direction.
+
+| Input type | What was provided | How it changed the work |
+| --- | --- | --- |
+| Source URL |  |  |
+| Pasted source text |  |  |
+| Prior output |  |  |
+| Feedback notes |  |  |
+| Must keep |  |  |
+| Must avoid |  |  |
+| Revision goal |  |  |
+
+### Feedback-To-Revision Map
+
+| Feedback or critique | Diagnosis | Revision requirement | Resolved in final sheet? |
+| --- | --- | --- | --- |
+
+Diagnose feedback at the positioning layer before editing sentences:
+
+- Buyer
+- Job
+- Status quo
+- Downside
+- Downside impact
+- New mechanism
+- Additional increase/decrease
+- Proof
+- Compression
+- Tone
+- Structure
+
+## C. JTBD Map
 
 Use a compact table:
 
@@ -104,7 +139,7 @@ Use a compact table:
 | Emotional/social jobs |  |
 | Consumption-chain jobs |  |
 
-## C. Positioning And Alternative Map
+## D. Positioning And Alternative Map
 
 Use this section to prove the sheet is not generic.
 
@@ -161,7 +196,7 @@ Use this only internally unless it makes the buyer-facing argument clearer.
 | Bucket | Example alternatives | What buyers value | Where friction appears in the job | Relationship to offer |
 | --- | --- | --- | --- | --- |
 
-## D. Gap Analysis
+## E. Gap Analysis
 
 Use a table:
 
@@ -170,7 +205,7 @@ Use a table:
 
 Status must be `Present`, `Weak`, or `Missing`.
 
-## E. Feature, Benefit, Outcome Map
+## F. Feature, Benefit, Outcome Map
 
 Use a table:
 
@@ -179,7 +214,7 @@ Use a table:
 
 Remove capabilities from the final sheet when they do not support a clear buyer benefit or business outcome.
 
-## F. Evidence Log
+## G. Evidence Log
 
 Use a table:
 
@@ -188,7 +223,7 @@ Use a table:
 
 Use `High`, `Medium`, or `Low` confidence. Avoid low-confidence claims in the final copy unless clearly framed as context.
 
-## G. Final Sales Sheet Copy
+## H. Final Sales Sheet Copy
 
 Paste the compressed buyer-facing sales sheet here for review. Use the same structure as `## Buyer-Facing Sales Sheet` above:
 
@@ -202,7 +237,13 @@ Paste the compressed buyer-facing sales sheet here for review. Use the same stru
 8. Proof.
 9. Sales conversation hook.
 
-## H. Missing Proof Or Asset Recommendations
+## I. What Changed
+
+Use this section only for revision or tuning requests.
+
+List 3-7 concrete changes tied to the user's feedback. Keep this operator-facing, not buyer-facing.
+
+## J. Missing Proof Or Asset Recommendations
 
 List assets the company should add later, such as:
 
@@ -216,7 +257,7 @@ List assets the company should add later, such as:
 - Product workflow image
 - Comparison to current process
 
-## I. Optional Variants
+## K. Optional Variants
 
 Provide:
 

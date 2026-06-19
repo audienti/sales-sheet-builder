@@ -1,7 +1,7 @@
 {
   "name": "sales-sheet-builder",
-  "description": "Build compressed, differentiated, source-backed B2B sales sheets with separate internal research workbooks.",
-  "version": "0.1.0",
+  "description": "Build or tune compressed, differentiated, source-backed B2B sales sheets with separate internal research workbooks.",
+  "version": "0.1.1",
   "author": {
     "name": "William Flanagan",
     "email": "wflanagan@audienti.com"

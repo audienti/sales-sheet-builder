@@ -1,7 +1,7 @@
 {
   "name": "sales-sheet-builder",
-  "version": "0.1.0",
-  "description": "Build compressed, differentiated, source-backed B2B sales sheets with separate internal research workbooks.",
+  "version": "0.1.1",
+  "description": "Build or tune compressed, differentiated, source-backed B2B sales sheets with separate internal research workbooks.",
   "author": {
     "name": "William Flanagan",
     "email": "wflanagan@audienti.com"
@@ -21,7 +21,7 @@
   "interface": {
     "displayName": "Sales Sheet Builder",
     "shortDescription": "Create compressed buyer-facing sales sheets with a separate research workbook.",
-    "longDescription": "Turn a company, offer, product, service, or URL into a differentiated B2B sales sheet using JTBD, status quo analysis, alternative mapping, and source-backed evidence while keeping the buyer-facing copy short.",
+    "longDescription": "Turn a company, offer, product, service, URL, pasted text, prior draft, or feedback notes into a differentiated B2B sales sheet using JTBD, status quo analysis, alternative mapping, and source-backed evidence while keeping the buyer-facing copy short.",
     "developerName": "William Flanagan",
     "category": "Sales",
     "capabilities": [
@@ -31,7 +31,7 @@
     "defaultPrompt": [
       "Build a compressed sales sheet from this URL.",
       "Create a buyer-facing sales sheet and separate workbook.",
-      "Use JTBD and status quo analysis to sharpen this offer."
+      "Tune this sales sheet using my feedback notes."
     ],
     "brandColor": "#0F766E"
   }

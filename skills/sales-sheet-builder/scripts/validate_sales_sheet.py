@@ -21,6 +21,11 @@ WORKBOOK_REQUIRED_SECTIONS = [
     "Optional Variants",
 ]
 
+REVISION_WORKBOOK_SECTIONS = [
+    "Input And Feedback Notes",
+    "What Changed",
+]
+
 PUBLISHED_REQUIRED_SECTIONS = [
     "Buyer-Facing Sales Sheet",
 ]
@@ -34,6 +39,16 @@ INTERNAL_FRAMEWORK_PHRASES = [
     "gap analysis",
     "strategy matrix",
     "four-question pitch",
+]
+
+REVISION_PHRASES = [
+    "feedback",
+    "prior output",
+    "prior draft",
+    "revision",
+    "what changed",
+    "tune",
+    "tuning",
 ]
 
 DISCOURAGED_PHRASES = [
@@ -166,6 +181,12 @@ def main() -> int:
 
         if "additional increase" not in lower and "additional decrease" not in lower:
             warnings.append("Output may be missing the additional increase/decrease created by the new approach.")
+
+        is_revision = any(phrase in lower for phrase in REVISION_PHRASES)
+        if is_revision:
+            for section in REVISION_WORKBOOK_SECTIONS:
+                if not section_present(text, section):
+                    warnings.append(f"Revision workbook may be missing section: {section}")
 
     for message in errors:
         print(f"ERROR: {message}")

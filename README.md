@@ -1,8 +1,8 @@
 # Sales Sheet Builder
 
 Sales Sheet Builder is a Codex and Claude Code plugin for turning a company,
-product, service, offer, or URL into a compressed, differentiated B2B sales
-sheet.
+product, service, offer, URL, pasted notes, prior draft, or feedback into a
+compressed, differentiated B2B sales sheet.
 
 It is built for sales, founder-led GTM, product marketing, and agency operators
 who need a buyer-ready explanation that is sharper than generic website copy.
@@ -19,13 +19,15 @@ understand.
 - positioning against the real status quo, not just named competitors
 - preserving useful research without making buyers read the research process
 - creating a sales asset that can be tested, tuned, and reused
+- revising a sales sheet after feedback without losing the underlying strategy
 
 ## What the plugin does
 
 The plugin adds the `sales-sheet-builder` skill.
 
-It reviews the source material, researches current alternatives, and produces a
-clear sales argument around four practical questions:
+It reviews the source material, user feedback, prior drafts, and current
+alternatives, then produces a clear sales argument around four practical
+questions:
 
 1. What is the buyer trying to increase, decrease, avoid, or improve?
 2. How do they try to get that job done today?
@@ -57,12 +59,14 @@ The buyer-facing sheet focuses on:
 The workbook preserves:
 
 - source extraction notes
+- input and feedback notes
 - JTBD map
 - status quo and alternatives
 - competitor buckets
 - coopetition roles
 - feature, benefit, outcome mapping
 - evidence log
+- what changed after revision
 - proof gaps and asset recommendations
 
 The buyer sees the conclusion. The operator keeps the research.
@@ -143,8 +147,9 @@ It works inside Codex by using the tools already available in the current run.
 
 The plugin works best when the request includes:
 
-- a source URL
+- a source URL, pasted source text, or prior draft
 - the product, service, or offer name
+- feedback notes or revision goals, if this is a tuning pass
 - the target buyer, if known
 - the sales goal, such as booking a meeting or starting a qualified sales
   conversation
@@ -152,7 +157,9 @@ The plugin works best when the request includes:
 - desired output length or tone
 
 If the user provides only a URL, the skill should infer the rest from the source
-page and label uncertain assumptions.
+page and label uncertain assumptions. If the user provides only pasted text or
+feedback, the skill should use that context and ask for a URL only when source
+facts or current claims need verification.
 
 ## Example Prompts
 
@@ -164,6 +171,9 @@ page and label uncertain assumptions.
   list.
 - Build a workbook that preserves the research, then give me the simplest
   buyer-facing version.
+- Here is the last sales sheet and my feedback. Tune it so the buyer feels more
+  understood.
+- Use this pasted offer text instead of a URL and create the first version.
 
 ## Validation
 
